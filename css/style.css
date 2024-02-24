@@ -1,0 +1,324 @@
+*{
+
+    margin: 1 1 1 1;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif
+}
+header {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+}
+    
+header ul{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    
+
+}
+header .item-header a{
+
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+    padding: 20px;
+
+}
+
+header .logo_espressoplace a{
+
+    font-size: 25px;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  
+}
+
+#hero{
+    width: 100%; 
+    height: 400px;
+    background-image: url(../Imagenes/imagen\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hero h1{
+
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom:  50px;
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 30px;
+}
+
+#hero p{ 
+
+    font-size: 20px;
+    font-weight: 40;
+    margin-bottom:  50px;
+    color:white;
+    padding: 30px;
+}
+
+#hero .boton {
+
+    background-color: rgb(7, 46, 7);
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 12px;
+    border-radius: 4px;
+    width: 100px;
+    font-weight: 600;
+    margin-left: 30px;
+    
+}
+
+#hero_menu {
+    width: 100%; 
+    height: 400;
+    background-color:rgb(7, 46, 7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hero_menu h1{
+
+    font-size: 80px;
+    font-weight: 700;
+    color:white;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15 15;
+    margin-top: 15px;
+
+}
+
+#hero_menu h2{ 
+
+    font-size: 18px;
+    font-weight: 40;
+    color:white;
+    padding: 15 15;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#hero_menu form {
+    
+    padding: 15 15;
+}
+
+#productos{
+
+    display: flex;
+    flex-direction:column ;
+    align-items:center;
+    justify-content: space-between;
+    padding: 60px 45px;
+
+}
+
+#productos h2 {
+    color: wheat;
+    text-align: center;
+    font-weight: 600;
+    font-size: 65px;
+    margin-bottom: 50px;
+    
+
+}
+    
+
+#productos .contenedor-productos{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+}
+
+.contenedor-productos {
+    width: 55%;
+    text-align: center;
+    
+}
+
+#productos .contenedor-productos img{
+
+    width: 70%;
+
+}
+
+#descargaaplicacion{ 
+
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+
+
+}
+
+#descargaaplicacion .contenedorimagen, 
+#descargaaplicacion .contenedortexto {
+width: 40%;
+}
+
+#descargaaplicacion .contenedorimagen img{ 
+
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+#descargaaplicacion .contenedortexto {
+
+    font-size: 20px;
+    padding: 90px;
+    text-align: left;
+
+
+
+}
+#descargaaplicacion .contenedortexto h3{
+
+    color: wheat;
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+
+#encuentranos .contenedorimagen, 
+#encuentranos .contenedortexto {
+width: 1000%;
+}
+
+
+
+#encuentranos {  
+
+    width: 100%; 
+    height: 400;
+    background-color:rgb(7, 46, 7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 45px;
+
+}
+
+
+#encuentranos .contenedortexto h1,  
+#encuentranos .contenedortexto p{ 
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+
+#postula .trabajaconnosotros { 
+
+    font-size: 24px;
+    font-weight: 40;
+    color:wheat;
+    padding: 15 15;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#postula p{
+
+    font-size: 18px;
+    font-weight: 40;
+    color:rgb(14, 14, 13);
+    padding: 15 15;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+#form {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+#form .casillaform { 
+
+    font-size: 18px;
+    font-weight: 40;
+    color:rgb(156, 155, 154);
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+
+}
+
+#productos .boton{
+
+    background-color: rgb(7, 46, 7);
+    color: white;;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 100px
+    
+
+}
+
+
+
+
+   
+footer h1 {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items:flex-end;
+
+}
+
+footer form {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items:flex-end;
+
+}
