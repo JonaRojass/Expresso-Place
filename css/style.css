@@ -4,6 +4,9 @@
     padding:0;
     font-family: Arial, Helvetica, sans-serif
 }
+
+
+
 header {
     height: 100px;
     width: 100%;
@@ -89,43 +92,7 @@ header .logo_espressoplace a{
     
 }
 
-@media (max-width:480px) {
 
-    #hero{
-        width: 100%; 
-        height: 440px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #hero h1{
-    
-        font-size: 25px;
-        font-weight: 700;
-        margin-bottom:  5px;
-        padding: 50px;
-        text-align: center;
-    }
-    
-    #hero p{ 
-    
-        font-size: 23px;
-        font-weight: 700;
-        margin-bottom:  5px;
-        padding: 50px;
-        text-align: center;   
-    }
-
-    #hero .boton {
-    
-        text-align: center;
-    }
-
-}
 
 
 #hero_menu {
@@ -363,6 +330,122 @@ footer form {
 
 }
 
+
+@media (max-width:480px) {
+
+        
+    header ul{
+    
+        width: 100%;       
+    
+    }
+    header .item-header a{
+    
+        text-decoration: none;
+        font-size: 7px;
+        font-weight: 200;
+        color: black;
+        padding: 1px;
+    
+    }
+    
+    header .logo_espressoplace a{
+    
+        font-size: 17px;  
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+    }
+
+    #hero{
+        width: 100%; 
+        height: 440px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #hero h1{
+    
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom:  5px;
+        padding: 50px;
+        text-align: center;
+    }
+    
+    #hero p{ 
+    
+        font-size: 23px;
+        font-weight: 700;
+        margin-bottom:  5px;
+        padding: 50px;
+        text-align: center;   
+    }
+
+    #hero .boton {
+    
+        text-align: center;
+    }
+
+    #productos{
+
+        display: flex;
+        flex-direction:column ;
+        align-items:center;
+        justify-content: space-between;
+        padding: 60px 45px;
+    
+    }
+    
+    #productos h2 {
+        color: wheat;
+        text-align: center;
+        font-weight: 600;
+        font-size: 65px;
+        margin-bottom: 10px;
+        
+    
+    }
+        
+    
+    #productos .contenedor-productos{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        
+        
+        
+    }
+    
+    .contenedor-productos {
+        width: 75%;
+        text-align: center;
+       
+    }
+    
+    #productos .contenedor-productos img{
+    
+        margin-top: 70px;
+        width: 90%;
+    
+    }
+
+    #productos .boton {
+
+      
+        padding: 12px         
+        
+    
+    }
+    
+
+
+}
+
+
 @media (max-width:480px) {
 
     footer h1 {
@@ -381,5 +464,11 @@ footer form {
         align-items:center;
 
 }
+
+}
+
+@media (max-width:480px) {
+
+
 
 }
