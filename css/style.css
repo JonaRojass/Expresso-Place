@@ -74,6 +74,7 @@ header .logo_espressoplace a{
     padding: 30px;
 }
 
+
 #hero .boton {
 
     background-color: rgb(7, 46, 7);
@@ -87,6 +88,45 @@ header .logo_espressoplace a{
     margin-left: 30px;
     
 }
+
+@media (max-width:480px) {
+
+    #hero{
+        width: 100%; 
+        height: 440px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #hero h1{
+    
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom:  5px;
+        padding: 50px;
+        text-align: center;
+    }
+    
+    #hero p{ 
+    
+        font-size: 23px;
+        font-weight: 700;
+        margin-bottom:  5px;
+        padding: 50px;
+        text-align: center;   
+    }
+
+    #hero .boton {
+    
+        text-align: center;
+    }
+
+}
+
 
 #hero_menu {
     width: 100%; 
@@ -320,5 +360,26 @@ footer form {
     flex-direction: row;
     justify-content:flex-end;
     align-items:flex-end;
+
+}
+
+@media (max-width:480px) {
+
+    footer h1 {
+        font-size: 19px;
+        justify-content:center;
+        align-items:center;
+        text-align: center;
+        margin-bottom: 30px;
+
+    
+    }
+
+    footer form {
+    
+        justify-content:center;
+        align-items:center;
+
+}
 
 }
