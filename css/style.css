@@ -5,8 +5,6 @@
     font-family: Arial, Helvetica, sans-serif
 }
 
-
-
 header {
     height: 100px;
     width: 100%;
@@ -595,11 +593,5 @@ footer form {
         align-items:center;
 
 }
-
-}
-
-@media (max-width:480px) {
-
-
 
 }
