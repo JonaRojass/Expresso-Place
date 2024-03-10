@@ -6,7 +6,7 @@
 }
 
 header {
-    background-color: white;
+    background-color: whitesmoke;
     height: 90px;
     width: 100%;
     display: flex;
@@ -416,14 +416,28 @@ footer form {
 
 @media (max-width:480px) {
 
-        
+    header {
+    background-color: whitesmoke;
+    height: 130px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    text-align: right;
+    align-items: right;
+    
+    }
+
+          
     header ul{
-       height: 40;
-        width: 100%;
-        display: flex;       
-        justify-content: right;
-        align-items: center ;
+        height: 95;
         flex-direction: column;
+        padding:0px 00px 00px 00px; 
+        margin-bottom: 29px;
+        display: flex;       
+        justify-content:right;
+        align-items: right;
+        text-align: right;
       
     
     }
@@ -433,25 +447,21 @@ footer form {
         font-size: 15px;
         font-weight: 200;
         color: black;
-        padding: 1px;
-    
+        
     }
     
-    header .logo_espressoplace a{
+    header .logo_espressoplace a {
     
-        font-size: 17px;  
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+        font-size: 20px;  
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif    
 
     }
 
-    #hero{
-
-        margin-top: 18px;
-        border-top: 100px;
+    #hero {
+        
+        padding: 200px 10px 10px 8px;
         width: 100%; 
-        height: 450px;
-        background-repeat: no-repeat;
-        background-size: cover;
+        height: 400px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -460,27 +470,26 @@ footer form {
     }
 
     #hero_menu {
-
-        margin-top: 20px;
-
+        
+    padding: 100px 0px 0px 0px;
+       
     }
 
 
     #hero h1{
     
-        font-size: 25px;
+        font-size: 19px;
         font-weight: 700;
-        margin-bottom:  5px;
-        padding: 50px;
+        padding: 5px 0px 0px 0px ;
         text-align: center;
     }
     
     #hero p{ 
     
-        font-size: 23px;
+        font-size: 17px;
         font-weight: 700;
         margin-bottom:  5px;
-        padding: 50px;
+        padding: 10px 0px 0px 0px;
         text-align: center;   
     }
 
@@ -488,6 +497,69 @@ footer form {
 
         
         text-align: center;
+
+    }
+
+    #hero2  {
+
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 100px 40px 40px 40px;
+            justify-content: center;
+            align-items: center;
+        
+         }
+        
+         #hero2 .contenedorimagenfuturo img{ 
+        
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            width: 100%;
+        
+        
+        
+         }
+        
+         #hero2 .contenedortextofuturo {
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            font-size: 15px;
+            padding: 20px 20px 20px 20px;
+            align-items: center;
+            margin-bottom: 10px;
+        
+         }
+        
+         #hero2 .contenedortextofuturo h1{
+         
+            color: wheat;
+            text-align: left;
+            font-weight: 600;
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+        
+        
+        #hero2 .boton {
+        
+            background-color: rgb(7, 46, 7);
+            color: white;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 4px 5px;
+            border-radius: 4px;
+            width: 100px;
+            font-weight: 600;
+            margin-left: 50px;
+            margin-bottom: 100px;
+
     }
 
     #productos{
@@ -504,7 +576,7 @@ footer form {
         color: wheat;
         text-align: center;
         font-weight: 600;
-        font-size: 65px;
+        font-size: 35px;
         margin-bottom: 10px;
         
     
@@ -541,23 +613,24 @@ footer form {
     
     }
     
-    #descargaaplicacion{ 
+    #descargaaplicacion { 
 
         display: flex;
         flex-direction: column;
-        padding: 35px;
+        padding: 200px 0px 0px 0px;
         align-items: center;
     
     }
     
     #descargaaplicacion .contenedorimagen, 
     #descargaaplicacion .contenedortexto {
-    width: 60%;
+    
+    width: 100%;
     }
     
     #descargaaplicacion .contenedorimagen img{ 
     
-        object-fit: cover;
+        
         width: 100%;
         height: 100%;
     
@@ -568,7 +641,7 @@ footer form {
     
         font-size: 18px;
         padding: 90px;
-        text-align: center;
+        text-align: left;
     
     
     
@@ -578,46 +651,48 @@ footer form {
         color: wheat;
         text-align: center;
         font-weight: 600;
-        font-size: 40px;
-        margin-bottom: 30px;
+        font-size: 25px;
+        margin-bottom: 20px;
     }
-
-
-    #encuentranos .contenedorimagen, 
-    #encuentranos .contenedortexto {
-    width: 100%;
-    margin-top: 1px;
-    text-align: center;
-    }
-    
+  
     #encuentranos {  
-        margin-top: 20px;
+        padding:0px 0px 0px 0px; 
+        margin-top: 0px;
         width: 100%; 
-        height: 400;
-        background-color:rgb(7, 46, 7);
-        background-repeat: no-repeat;
-        background-size: cover;
-        
+        height: 510px;    
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0px;
-    
+        align-items: center;
+      
     }
+        
+    #encuentranos .contenedorimagen{
     
+        padding: 00px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
     
     #encuentranos .contenedortexto h1,  
     #encuentranos .contenedortexto p{ 
+        padding:100px 0px 0px 0px; 
         color: white;
         text-align: center;
         font-weight: 600;
         font-size: 30px;
-        margin-top: 10px;
+        margin-top: 00px;
     
     }
 
     #postula .trabajaconnosotros { 
-        margin-top: 20px;
+        
+       
+        margin-top: 80px;
         font-size: 24px;
         font-weight: 40;
         color:wheat;
@@ -631,7 +706,7 @@ footer form {
     }
     
     #postula p{
-    
+        
         font-size: 18px;
         font-weight: 40;
         color:rgb(14, 14, 13);
@@ -641,8 +716,9 @@ footer form {
         justify-content: center;
     
     }
+
     #form {
-        
+               
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -670,13 +746,12 @@ footer form {
 
     footer h1 {
         font-size: 15px;
-        color: white;
+        color: black;
         display: flex;
         flex-direction: row;
         justify-content:center;
         align-items:center;
         
-    
     }
     
     footer form {
