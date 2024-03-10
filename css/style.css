@@ -1,24 +1,23 @@
 *{
 
-    margin: 1 1 1 1;
+    margin: 0 0 0 0;
     padding:0;
     font-family: Arial, Helvetica, sans-serif
 }
 
 header {
-    height: 100px;
+    background-color: white;
+    height: 90px;
     width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
     display: flex;
+    position: fixed;
     flex-direction: row;
     justify-content: center;
     align-items: center;  
 }
     
 header ul{
-    height: 25px;
+    
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -34,18 +33,19 @@ header .item-header a{
     font-size: 13px;
     font-weight: 400;
     color: black;
-    padding: 20px;
+    padding: 10px;
 
 }
 
 header .logo_espressoplace a{
 
-    font-size: 25px;  
+    font-size: 30px;  
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
   
 }
 
 #hero{
+    padding: 100px 0px 0px 0px;
     width: 100%; 
     height: 400px;
     background-image: url(../Imagenes/imagen\ 2.jpg);
@@ -58,12 +58,12 @@ header .logo_espressoplace a{
 
 #hero h1{
 
-    font-size: 30px;
+    margin-top: 60px;
+    font-size: 25px;
     font-weight: 400;
-    margin-bottom:  50px;
     color:white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 30px;
+    padding: 30px 0px 0px 30px;
 }
 
 #hero p{ 
@@ -72,7 +72,7 @@ header .logo_espressoplace a{
     font-weight: 40;
     margin-bottom:  50px;
     color:white;
-    padding: 30px;
+    padding: 30px
 }
 
 
@@ -81,24 +81,86 @@ header .logo_espressoplace a{
     background-color: rgb(7, 46, 7);
     color: white;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 6px 12px;
     border-radius: 4px;
     width: 100px;
     font-weight: 600;
     margin-left: 30px;
+    margin-bottom: 100px;
     
 }
 
+ #hero2  {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 90px 50px 10px 150px;
+    justify-content: center;
+    align-items: center;
 
 
+ }
+
+ #hero2 .contenedorimagenfuturo img{ 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+
+ }
+
+ #hero2 .contenedortextofuturo {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 15px;
+    padding: 70px 20px 30px 70px;
+    align-items: center;
+    margin-bottom: 10px;
+
+ }
+
+ #hero2 .contenedortextofuturo h1{
+ 
+    color: wheat;
+    text-align: left;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+#hero2 .boton {
+
+    background-color: rgb(7, 46, 7);
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px 5px;
+    border-radius: 4px;
+    width: 100px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+}
 
 #hero_menu {
+
+    padding-top: 30px;
     width: 100%; 
-    height: 400;
+    height: 400px;
     background-color:rgb(7, 46, 7);
     background-repeat: no-repeat;
-    background-size: cover;
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -173,43 +235,49 @@ header .logo_espressoplace a{
 
 #descargaaplicacion{ 
 
+
+    width: 100%;
     display: flex;
     flex-direction: row;
-    padding: 60px;
+    padding: 90px 50px 10px 150px;
+    justify-content: center;
+    align-items: center;
 
 
 }
 
-#descargaaplicacion .contenedorimagen, 
-#descargaaplicacion .contenedortexto {
-width: 40%;
-}
 
 #descargaaplicacion .contenedorimagen img{ 
 
-    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 100%;
-
 
 }
 
 #descargaaplicacion .contenedortexto {
 
-    font-size: 20px;
-    padding: 90px;
-    text-align: left;
-
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 15px;
+    padding: 90px 50px 50px 90px;
+    align-items: center;
+    margin-bottom: 10px;
+  
 
 }
 #descargaaplicacion .contenedortexto h3{
-
+ 
     color: wheat;
-    text-align: center;
+    text-align: left;
     font-weight: 600;
-    font-size: 50px;
-    margin-bottom: 50px;
+    font-size: 15px;
+    margin-bottom: 10px;
 }
 
 
@@ -220,6 +288,7 @@ width: 100%;
 
 #encuentranos {  
 
+    padding: 100px 0px 0px 0px;
     width: 100%; 
     height: 400;
     background-color:rgb(7, 46, 7);
@@ -249,9 +318,15 @@ width: 100%;
 
 }
 
+#postula {
+
+    padding: 80px 0px 0px 0px;
+}
+
 
 #postula .trabajaconnosotros { 
 
+    height: 40px;
     font-size: 24px;
     font-weight: 40;
     color:wheat;
@@ -268,7 +343,7 @@ width: 100%;
     font-size: 18px;
     font-weight: 40;
     color:rgb(14, 14, 13);
-    padding: 15 15;
+    padding: 5;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
@@ -281,18 +356,18 @@ width: 100%;
     align-items: center;
     justify-content: center;
     text-align:left;
-    
+   
     
 }
 
 #form .casillaform { 
 
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 40;
     color:rgb(156, 155, 154);
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    align-items:right;
+    text-align: center;
+    align-items:center;
     
 }
 
@@ -312,18 +387,19 @@ width: 100%;
 footer {
     
     background-color: rgb(7, 46, 7);
-    margin-top: 10px;
+    margin-top: 100px;
 }
 
 
    
 footer h1 {
-
+   
+    font-size: 20px;
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content:flex-end;
-    align-items:flex-end;
+    justify-content:right;
+    align-items:center;
     margin-top: 1px;
 
 }
@@ -332,8 +408,8 @@ footer form {
     
     display: flex;
     flex-direction: row;
-    justify-content:flex-end;
-    align-items:flex-end;
+    justify-content:right;
+    align-items:center;
 
 }
 
