@@ -1,0 +1,11 @@
+{
+  "name": "espresso-place",
+  "version": "1.0.0",
+  "description": "Proyecto en desarrollo para aprobar curso \"Desarrollo Web\" \r Sitio Web \"Cafetería\" Ecomerce, Delivery\r Temas utilizados:\r HTML5\r CSS\r BOOTSTRAP\r GIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

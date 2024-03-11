@@ -1,0 +1,86 @@
+
+header {
+    background-color: whitesmoke;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+}
+    
+header ul{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    
+
+}
+header .item-header a{
+
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+    padding: 10px;
+
+}
+
+header .logo_espressoplace a{
+
+    font-size: 30px;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  
+}
+
+@media (max-width:480px) {
+
+    header {
+    background-color: whitesmoke;
+    height: 130px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    text-align: right;
+    align-items: right;
+    
+    }
+
+          
+    header ul{
+        height: 95;
+        flex-direction: column;
+        padding:0px 00px 00px 00px; 
+        margin-bottom: 29px;
+        display: flex;       
+        justify-content:right;
+        align-items: right;
+        text-align: right;
+      
+    
+    }
+    header .item-header a{
+    
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 200;
+        color: black;
+        
+    }
+    
+    header .logo_espressoplace a {
+    
+        font-size: 20px;  
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif    
+
+    }
+
+}
+
+

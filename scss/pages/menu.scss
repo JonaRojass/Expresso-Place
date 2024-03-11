@@ -1,0 +1,259 @@
+
+#hero_menu {
+
+    padding-top: 30px;
+    width: 100%; 
+    height: 400px;
+    background-color:rgb(7, 46, 7);
+    background-repeat: no-repeat;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hero_menu h1{
+
+    font-size: 80px;
+    font-weight: 700;
+    color:white;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15 15;
+    margin-top: 15px;
+
+}
+
+#hero_menu h2{ 
+
+    font-size: 18px;
+    font-weight: 40;
+    color:white;
+    padding: 15 15;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#hero_menu form {
+    
+    padding: 15 15;
+}
+
+#productos{
+
+    display: flex;
+    flex-direction:column ;
+    align-items:center;
+    justify-content: space-between;
+    padding: 60px 45px;
+
+}
+
+#productos h2 {
+    color: wheat;
+    text-align: center;
+    font-weight: 600;
+    font-size: 65px;
+    margin-bottom: 50px;
+    
+
+}
+    
+
+#productos .contenedor-productos{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+}
+
+.contenedor-productos {
+    width: 55%;
+    text-align: center;
+    
+}
+
+#productos .contenedor-productos img{
+
+    width: 70%;
+
+}
+
+#productos .boton{
+
+    background-color: rgb(7, 46, 7);
+    color: white;;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 100px
+    
+
+}
+
+@media (max-width:480px) {
+
+    #hero {
+        
+        padding: 200px 10px 10px 8px;
+        width: 100%; 
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #hero_menu {
+        
+    padding: 100px 0px 0px 0px;
+       
+    }
+
+
+    #hero h1{
+    
+        font-size: 19px;
+        font-weight: 700;
+        padding: 5px 0px 0px 0px ;
+        text-align: center;
+    }
+    
+    #hero p{ 
+    
+        font-size: 17px;
+        font-weight: 700;
+        margin-bottom:  5px;
+        padding: 10px 0px 0px 0px;
+        text-align: center;   
+    }
+
+    #hero .boton {
+
+        
+        text-align: center;
+
+    }
+
+    #hero2  {
+
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding: 100px 40px 40px 40px;
+            justify-content: center;
+            align-items: center;
+        
+         }
+        
+         #hero2 .contenedorimagenfuturo img{ 
+        
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            width: 100%;
+        
+        
+        
+         }
+        
+         #hero2 .contenedortextofuturo {
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            font-size: 15px;
+            padding: 20px 20px 20px 20px;
+            align-items: center;
+            margin-bottom: 10px;
+        
+         }
+        
+         #hero2 .contenedortextofuturo h1{
+         
+            color: wheat;
+            text-align: left;
+            font-weight: 600;
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+        
+        
+        #hero2 .boton {
+        
+            background-color: rgb(7, 46, 7);
+            color: white;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 4px 5px;
+            border-radius: 4px;
+            width: 100px;
+            font-weight: 600;
+            margin-left: 50px;
+            margin-bottom: 100px;
+
+    }
+
+
+    @media (max-width:480px) {
+
+        #productos{
+    
+            display: flex;
+            flex-direction:column ;
+            align-items:center;
+            justify-content: space-between;
+            padding: 60px 45px;
+        
+        }
+        
+        #productos h2 {
+            color: wheat;
+            text-align: center;
+            font-weight: 600;
+            font-size: 35px;
+            margin-bottom: 10px;
+            
+        
+        }
+            
+        
+        #productos .contenedor-productos{
+            display: flex;
+            flex-direction:column;
+            justify-content:center;
+            
+            
+            
+        }
+        
+        .contenedor-productos {
+            width: 75%;
+            text-align: center;
+           
+        }
+        
+        #productos .contenedor-productos img{
+        
+            margin-top: 70px;
+            width: 90%;
+        
+        }
+    
+        #productos .boton {
+    
+          
+            padding: 12px         
+    
+        
+        }
+    
+    }
+
+
+}
