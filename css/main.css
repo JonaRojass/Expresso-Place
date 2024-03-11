@@ -39,24 +39,15 @@ header .logo_espressoplace a {
 
 @media (max-width: 480px) {
   header {
-    background-color: whitesmoke;
     height: 130px;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: right;
-    align-items: right;
   }
   header ul {
     height: 95;
+    display: flex;
     flex-direction: column;
     padding: 0px 0px 0px 0px;
-    margin-bottom: 29px;
-    display: flex;
-    justify-content: right;
-    align-items: right;
-    text-align: right;
+    margin-bottom: 3px;
   }
   header .item-header a {
     text-decoration: none;
@@ -65,7 +56,7 @@ header .logo_espressoplace a {
     color: black;
   }
   header .logo_espressoplace a {
-    font-size: 20px;
+    font-size: 23px;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
 }
@@ -194,7 +185,6 @@ footer form {
   border-radius: 4px;
   width: 100px;
   font-weight: 600;
-  margin-left: 100px;
   margin-bottom: 100px;
 }
 
@@ -223,6 +213,7 @@ footer form {
   }
   #hero .boton {
     text-align: center;
+    margin-right: 30px;
   }
   #hero2 {
     width: 100%;
@@ -420,16 +411,16 @@ footer form {
   #descargaaplicacion {
     display: flex;
     flex-direction: column;
-    padding: 200px 0px 0px 0px;
+    padding: 120px 0px 0px 0px;
     align-items: center;
   }
   #descargaaplicacion .contenedorimagen img {
-    padding: 60px 60px 60px 60px;
+    padding: 50px 50px 50px 50px;
     width: 100%;
   }
   #descargaaplicacion .contenedortexto {
     font-size: 18px;
-    padding: 90px;
+    padding: 40px;
     text-align: left;
   }
   #descargaaplicacion .contenedortexto h3 {

@@ -41,44 +41,27 @@ header .logo_espressoplace a{
 @media (max-width:480px) {
 
     header {
-    background-color: whitesmoke;
     height: 130px;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    text-align: right;
-    align-items: right;
-    
     }
-
-          
+   
     header ul{
         height: 95;
+        display: flex;
         flex-direction: column;
         padding:0px 00px 00px 00px; 
-        margin-bottom: 29px;
-        display: flex;       
-        justify-content:right;
-        align-items: right;
-        text-align: right;
-      
-    
+        margin-bottom: 3px;
     }
     header .item-header a{
-    
         text-decoration: none;
         font-size: 15px;
         font-weight: 200;
         color: black;
-        
     }
     
     header .logo_espressoplace a {
-    
-        font-size: 20px;  
+        font-size: 23px;  
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif    
-
     }
 
 }
