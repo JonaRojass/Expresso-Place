@@ -6,36 +6,31 @@
     padding: 90px 50px 10px 150px;
     justify-content: center;
     align-items: center;
-}
-
-#descargaaplicacion .contenedorimagen img{ 
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-#descargaaplicacion .contenedortexto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    font-size: 15px;
-    padding: 90px 50px 50px 90px;
-    align-items: center;
-    margin-bottom: 10px;
- 
-}
-
-#descargaaplicacion .contenedortexto h3{
-    color: wheat;
-    text-align: left;
-    font-weight: 600;
-    font-size: 15px;
-    margin-bottom: 10px;
+    .contenedorimagen img{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .contenedortexto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 15px;
+        padding: 90px 50px 50px 90px;
+        align-items: center;
+        margin-bottom: 10px;
+        h3{
+            color: wheat;
+            text-align: left;
+            font-weight: 600;
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+    }
 }
 
 @media (max-width:480px) {
@@ -45,31 +40,22 @@
         flex-direction: column;
         padding: 120px 0px 0px 0px;
         align-items: center;
-    
+        .contenedorimagen img{ 
+            padding: 50px 50px 50px 50px;
+            width: 100%;
+        }
+        .contenedortexto {
+            font-size: 18px;
+            padding: 40px;
+            text-align: left;
+            h3{
+                color: wheat;
+                text-align: center;
+                font-weight: 600;
+                font-size: 25px;
+                margin-bottom: 20px;
+            }
+        }
     }
-
-    #descargaaplicacion .contenedorimagen img{ 
-    
-        padding: 50px 50px 50px 50px;
-        width: 100%;
-    
-    }
-    
-    #descargaaplicacion .contenedortexto {
-    
-        font-size: 18px;
-        padding: 40px;
-        text-align: left;
-    
-    }
-    #descargaaplicacion .contenedortexto h3{
-    
-        color: wheat;
-        text-align: center;
-        font-weight: 600;
-        font-size: 25px;
-        margin-bottom: 20px;
-    }
-
 }
   

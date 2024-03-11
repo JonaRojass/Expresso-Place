@@ -15,7 +15,6 @@ width: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
 }
 
 #encuentranos .contenedortexto h1,  
@@ -25,13 +24,10 @@ width: 100%;
     font-weight: 600;
     font-size: 50px;
     margin-bottom: 50px;
-
 }
 
 #encuentranos .listadobeneficios { 
-
     width: 100%;
-
 }
 
 @media (max-width:480px) {
@@ -44,19 +40,15 @@ width: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-      
+        .contenedorimagen{
+    
+            padding: 00px 0px 0px 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
-        
-    #encuentranos .contenedorimagen{
-    
-        padding: 00px 0px 0px 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    
-    }
-    
     #encuentranos .contenedortexto h1,  
     #encuentranos .contenedortexto p{ 
         padding:100px 0px 0px 0px; 
@@ -65,7 +57,5 @@ width: 100%;
         font-weight: 600;
         font-size: 30px;
         margin-top: 00px;
-    
     }
-
 }

@@ -14,7 +14,6 @@ header {
   justify-content: center;
   align-items: center;
 }
-
 header ul {
   width: 100%;
   display: flex;
@@ -23,7 +22,6 @@ header ul {
   align-items: center;
   list-style-type: none;
 }
-
 header .item-header a {
   text-decoration: none;
   font-size: 13px;
@@ -31,7 +29,6 @@ header .item-header a {
   color: black;
   padding: 10px;
 }
-
 header .logo_espressoplace a {
   font-size: 30px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -64,7 +61,6 @@ footer {
   background-color: rgb(7, 46, 7);
   margin-top: 100px;
 }
-
 footer h1 {
   font-size: 20px;
   color: white;
@@ -74,7 +70,6 @@ footer h1 {
   align-items: center;
   margin-top: 1px;
 }
-
 footer form {
   display: flex;
   flex-direction: row;
@@ -109,7 +104,6 @@ footer form {
   flex-direction: column;
   justify-content: center;
 }
-
 #hero h1 {
   margin-top: 60px;
   font-size: 25px;
@@ -118,7 +112,6 @@ footer form {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding: 30px 0px 0px 30px;
 }
-
 #hero p {
   font-size: 20px;
   font-weight: 40;
@@ -126,7 +119,6 @@ footer form {
   color: white;
   padding: 30px;
 }
-
 #hero .boton {
   background-color: rgb(7, 46, 7);
   color: white;
@@ -147,7 +139,6 @@ footer form {
   justify-content: center;
   align-items: center;
 }
-
 #hero2 .contenedorimagenfuturo img {
   display: flex;
   flex-direction: row;
@@ -155,7 +146,6 @@ footer form {
   align-items: center;
   width: 100%;
 }
-
 #hero2 .contenedortextofuturo {
   display: flex;
   flex-direction: column;
@@ -167,7 +157,6 @@ footer form {
   align-items: center;
   margin-bottom: 10px;
 }
-
 #hero2 .contenedortextofuturo h1 {
   color: wheat;
   text-align: left;
@@ -175,7 +164,6 @@ footer form {
   font-size: 15px;
   margin-bottom: 10px;
 }
-
 #hero2 .boton {
   background-color: rgb(7, 46, 7);
   color: white;
@@ -271,7 +259,6 @@ footer form {
   flex-direction: column;
   justify-content: center;
 }
-
 #hero_menu h1 {
   font-size: 80px;
   font-weight: 700;
@@ -281,8 +268,7 @@ footer form {
   padding: 15 15;
   margin-top: 15px;
 }
-
-#hero_menu h2 {
+#hero_menu h1 h2 {
   font-size: 18px;
   font-weight: 40;
   color: white;
@@ -301,7 +287,6 @@ footer form {
   justify-content: space-between;
   padding: 60px 45px;
 }
-
 #productos h2 {
   color: wheat;
   text-align: center;
@@ -309,22 +294,18 @@ footer form {
   font-size: 65px;
   margin-bottom: 50px;
 }
-
 #productos .contenedor-productos {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-
-.contenedor-productos {
+#productos .contenedor-productos {
   width: 55%;
   text-align: center;
 }
-
 #productos .contenedor-productos img {
   width: 70%;
 }
-
 #productos .boton {
   background-color: rgb(7, 46, 7);
   color: white;
@@ -358,7 +339,7 @@ footer form {
     flex-direction: column;
     justify-content: center;
   }
-  .contenedor-productos {
+  #productos .contenedor-productos {
     width: 75%;
     text-align: center;
   }
@@ -378,7 +359,6 @@ footer form {
   justify-content: center;
   align-items: center;
 }
-
 #descargaaplicacion .contenedorimagen img {
   display: flex;
   flex-direction: row;
@@ -386,7 +366,6 @@ footer form {
   align-items: center;
   width: 100%;
 }
-
 #descargaaplicacion .contenedortexto {
   display: flex;
   flex-direction: column;
@@ -398,7 +377,6 @@ footer form {
   align-items: center;
   margin-bottom: 10px;
 }
-
 #descargaaplicacion .contenedortexto h3 {
   color: wheat;
   text-align: left;
@@ -493,7 +471,6 @@ footer form {
 #postula {
   padding: 80px 0px 0px 0px;
 }
-
 #postula .trabajaconnosotros {
   height: 40px;
   font-size: 24px;
@@ -504,7 +481,6 @@ footer form {
   display: flex;
   justify-content: center;
 }
-
 #postula p {
   font-size: 18px;
   font-weight: 40;
@@ -522,7 +498,6 @@ footer form {
   justify-content: center;
   text-align: left;
 }
-
 #form .casillaform {
   font-size: 15px;
   font-weight: 40;

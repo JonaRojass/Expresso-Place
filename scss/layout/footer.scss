@@ -3,30 +3,28 @@ footer {
     
     background-color: rgb(7, 46, 7);
     margin-top: 100px;
-}
+    h1 {
+        font-size: 20px;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content:right;
+        align-items:center;
+        margin-top: 1px;
+    }
 
-
-   
-footer h1 {
-   
-    font-size: 20px;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content:right;
-    align-items:center;
-    margin-top: 1px;
-
-}
-
-footer form {
+    form {
     
-    display: flex;
-    flex-direction: row;
-    justify-content:right;
-    align-items:center;
+        display: flex;
+        flex-direction: row;
+        justify-content:right;
+        align-items:center;
+    
+    }
 
 }
+
+
 
 @media (max-width:480px) {
 

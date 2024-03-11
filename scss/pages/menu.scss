@@ -8,128 +8,110 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    h1{
+        font-size: 80px;
+        font-weight: 700;
+        color:white;
+        width: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 15 15;
+        margin-top: 15px;
+    h2{ 
+        font-size: 18px;
+        font-weight: 40;
+        color:white;
+        padding: 15 15;
+        font-family: Arial, Helvetica, sans-serif;        
+        }   
+    }
 }
-
-#hero_menu h1{
-    font-size: 80px;
-    font-weight: 700;
-    color:white;
-    width: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 15 15;
-    margin-top: 15px;
-
-}
-
-#hero_menu h2{ 
-    font-size: 18px;
-    font-weight: 40;
-    color:white;
-    padding: 15 15;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
+ 
 #hero_menu form {
     
     padding: 15 15;
 }
 
 #productos{
-
     display: flex;
     flex-direction:column ;
     align-items:center;
     justify-content: space-between;
     padding: 60px 45px;
+    h2 {
+        color: wheat;
+        text-align: center;
+        font-weight: 600;
+        font-size: 65px;
+        margin-bottom: 50px;  
+    }
 
-}
-
-#productos h2 {
-    color: wheat;
-    text-align: center;
-    font-weight: 600;
-    font-size: 65px;
-    margin-bottom: 50px;  
-}
-
-#productos .contenedor-productos{
-    display: flex;
-    flex-direction:row;
-    justify-content: space-between;
-}
-
-.contenedor-productos {
-    width: 55%;
-    text-align: center;
+    .contenedor-productos{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+    }
     
+    .contenedor-productos {
+        width: 55%;
+        text-align: center;
+        
+    }
+    .contenedor-productos img{
+
+        width: 70%;
+    
+    }
+    .boton{
+
+        background-color: rgb(7, 46, 7);
+        color: white;;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 12px 24px;
+        border-radius: 4px;
+        text-decoration: none;
+        margin-top: 100px
+      
+    }
 }
 
-#productos .contenedor-productos img{
-
-    width: 70%;
-
-}
-
-#productos .boton{
-
-    background-color: rgb(7, 46, 7);
-    color: white;;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 12px 24px;
-    border-radius: 4px;
-    text-decoration: none;
-    margin-top: 100px
-  
-}
 
 @media (max-width:480px) {
 #hero_menu {    
     padding: 100px 0px 0px 0px;
-
     }
-
         #productos{
-    
             display: flex;
             flex-direction:column ;
             align-items:center;
             justify-content: space-between;
             padding: 60px 45px;
-        
-        }
-        
-        #productos h2 {
-            color: wheat;
-            text-align: center;
-            font-weight: 600;
-            font-size: 35px;
-            margin-bottom: 10px;
-      
-        }
-  
-        #productos .contenedor-productos{
-            display: flex;
-            flex-direction:column;
-            justify-content:center;           
-            
-        }
-        
-        .contenedor-productos {
-            width: 75%;
-            text-align: center;
-           
-        }
-        
-        #productos .contenedor-productos img{
-        
-            margin-top: 70px;
-            width: 90%;        
-        }
-    
-        #productos .boton {   
-            padding: 12px         
-    
-        }   
+
+            h2 {
+                color: wheat;
+                text-align: center;
+                font-weight: 600;
+                font-size: 35px;
+                margin-bottom: 10px;
+            }
+
+            .contenedor-productos{
+                display: flex;
+                flex-direction:column;
+                justify-content:center;           
+            }
+            .contenedor-productos {
+                width: 75%;
+                text-align: center;
+            }
+
+            .contenedor-productos img{
+                margin-top: 70px;
+                width: 90%;        
+            }
+
+            .boton {   
+                padding: 12px         
+            }   
+        }      
 }
 
