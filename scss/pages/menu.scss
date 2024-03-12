@@ -1,8 +1,10 @@
+
 @mixin media-query-mobile{
     @media (max-width:480px) {
         @content;
     }
 }
+
 
 #hero_menu {
     padding-top: 30px;
@@ -70,6 +72,7 @@
             justify-content:center;    
 
         }
+    
     }
     
     .contenedor-productos {
@@ -86,6 +89,8 @@
             margin-top: 70px;
              width: 90%;     
     }
+  
+
     }
     .boton{
 
@@ -100,8 +105,11 @@
             padding: 12px    
 
         }
+
+       
       
     }
+
 }
 
 
