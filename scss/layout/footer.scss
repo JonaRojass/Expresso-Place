@@ -1,11 +1,11 @@
 
 footer {
     
-    background-color: rgb(7, 46, 7);
+    background-color: $color-primario;
     margin-top: 100px;
     h1 {
         font-size: 20px;
-        color: white;
+        color: $color-secundario;
         display: flex;
         flex-direction: row;
         justify-content:right;
@@ -30,7 +30,7 @@ footer {
 
     footer h1 {
         font-size: 15px;
-        color: white;
+        color: $color-secundario;
         display: flex;
         flex-direction: row;
         justify-content:center;
