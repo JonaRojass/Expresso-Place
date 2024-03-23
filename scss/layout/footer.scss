@@ -22,6 +22,10 @@ footer {
     
     }
 
+    [type=button], [type=reset], [type=submit], button {
+        background-color: $color-secundario;
+    }
+
 }
 
 

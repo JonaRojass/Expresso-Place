@@ -5,7 +5,7 @@
         height: 40px;
         font-size: 24px;
         font-weight: 40;
-        color:wheat;
+        color: $color-primario;
         padding: 15 15;
         font-family: Arial, Helvetica, sans-serif;
         display: flex;
@@ -35,6 +35,11 @@
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         align-items:center;  
+    }
+    .btn-primary {
+        --bs-btn-color: #fff;
+        --bs-btn-bg:rgb(7, 46, 7);
+
     }
 }
 
