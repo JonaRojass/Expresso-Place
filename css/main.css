@@ -61,7 +61,7 @@ footer {
   background-color: rgb(7, 46, 7);
   margin-top: 100px;
 }
-footer h1 {
+footer h2 {
   font-size: 20px;
   color: #fff;
   display: flex;
@@ -82,7 +82,7 @@ footer [type=button], footer [type=reset], footer [type=submit], footer button {
 }
 
 @media (max-width: 480px) {
-  footer h1 {
+  footer h2 {
     font-size: 15px;
     color: #fff;
     display: flex;
@@ -165,7 +165,7 @@ footer [type=button], footer [type=reset], footer [type=submit], footer button {
   align-items: center;
   margin-bottom: 10px;
 }
-#hero2 .contenedortextofuturo h1 {
+#hero2 .contenedortextofuturo h2 {
   color: black;
   text-align: left;
   font-weight: 600;
@@ -238,7 +238,7 @@ footer [type=button], footer [type=reset], footer [type=submit], footer button {
     margin-bottom: 10px;
   }
   #hero2 .contenedortextofuturo h1 {
-    color: wheat;
+    color: black;
     text-align: left;
     font-weight: 600;
     font-size: 15px;
@@ -268,13 +268,13 @@ footer [type=button], footer [type=reset], footer [type=submit], footer button {
   justify-content: center;
 }
 #hero_menu h1 {
-  font-size: 80px;
+  font-size: 25px;
   font-weight: 700;
   color: #fff;
-  width: 100px;
+  width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   padding: 15 15;
-  margin-top: 15px;
+  margin-top: 70px;
 }
 #hero_menu h2 {
   font-size: 18px;
@@ -285,8 +285,24 @@ footer [type=button], footer [type=reset], footer [type=submit], footer button {
   margin-top: 15px;
 }
 @media (max-width: 480px) {
-  #hero_menu {
-    padding: 100px 0px 0px 0px;
+  #hero_menu h1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25 20;
+    margin-top: 110px;
+    text-align: center;
+  }
+  #hero_menu h2 {
+    font-size: 18px;
+    font-weight: 100%;
+    color: #fff;
+    padding: 15 15;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    text-align: center;
   }
 }
 
@@ -352,6 +368,7 @@ footer [type=button], footer [type=reset], footer [type=submit], footer button {
   border-radius: 4px;
   text-decoration: none;
   margin-top: 100px;
+  cursor: pointer;
 }
 @media (max-width: 480px) {
   #productos .boton {
@@ -553,6 +570,10 @@ footer [type=button], footer [type=reset], footer [type=submit], footer button {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     align-items: center;
+  }
+  #form [type=button], #form [type=reset], #form [type=submit], #form button {
+    background-color: rgb(7, 46, 7);
+    color: #fff;
   }
 }
 
