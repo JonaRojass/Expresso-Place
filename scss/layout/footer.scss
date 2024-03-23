@@ -24,6 +24,7 @@ footer {
 
     [type=button], [type=reset], [type=submit], button {
         background-color: $color-secundario;
+        color: $color-subtitulos;
     }
 
 }
@@ -50,6 +51,11 @@ footer {
         align-items:center;
 
 }
+[type=button], [type=reset], [type=submit], button {
+    background-color: $color-secundario;
+    color: $color-subtitulos;
+}
+
 
 }
 

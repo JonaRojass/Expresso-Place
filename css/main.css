@@ -78,6 +78,7 @@ footer form {
 }
 footer [type=button], footer [type=reset], footer [type=submit], footer button {
   background-color: #fff;
+  color: black;
 }
 
 @media (max-width: 480px) {
@@ -94,6 +95,10 @@ footer [type=button], footer [type=reset], footer [type=submit], footer button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  [type=button], [type=reset], [type=submit], button {
+    background-color: #fff;
+    color: black;
   }
 }
 #hero {
@@ -161,7 +166,7 @@ footer [type=button], footer [type=reset], footer [type=submit], footer button {
   margin-bottom: 10px;
 }
 #hero2 .contenedortextofuturo h1 {
-  color: wheat;
+  color: black;
   text-align: left;
   font-weight: 600;
   font-size: 15px;
@@ -519,7 +524,7 @@ footer [type=button], footer [type=reset], footer [type=submit], footer button {
     margin-top: 80px;
     font-size: 24px;
     font-weight: 40;
-    color: wheat;
+    color: black;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
