@@ -375,6 +375,10 @@ footer [type=button], footer [type=reset], footer [type=submit], footer button {
     padding: 12px;
   }
 }
+#productos .boton .boton:hover {
+  transform: scale(2, 2);
+  transition: all 2s ease;
+}
 
 #descargaaplicacion {
   width: 100%;

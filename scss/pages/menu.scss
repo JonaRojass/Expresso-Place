@@ -131,9 +131,16 @@
             padding: 12px    
 
         }
-      
+        .boton:hover{
+            transform: scale(2, 2);
+            transition: all 2s ease;
+    
+        }
     }
+    }
+      
+    
 
-}
+
 
 
