@@ -31,6 +31,12 @@ header {
         }
     }
 
+    .item-header:hover {
+
+        transform: scale(1.2, 1.2);
+        transition: all 1s ease;
+    }
+
 @media (max-width:480px) {
 
     header {
@@ -56,7 +62,11 @@ header {
     }
 
     }
-    
+    .item-header:hover {
+
+        transform: scale(1.2, 1.2);
+        transition: all 1s ease;
+    }
 }
 
 
